@@ -1,0 +1,177 @@
+.modal {
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__header {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 18px;
+}
+
+.modal__header > svg {
+    cursor: pointer;
+    color: #d4d4d4;
+}
+
+.modal__header > svg:hover {
+    color: #929292;
+}
+
+.modal__label {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.modal__label > span {
+    display: flex;
+    flex: 1;
+    align-self: flex-start;
+}
+
+.modal__label > div {
+    display: flex;
+    flex: 2;
+    background: #f5f5f5 !important;
+    align-self: flex-start;
+}
+
+.modal__label > select {
+    display: flex;
+    flex: 2;
+    align-self: flex-start;
+    background: #f5f5f5 !important;
+    height: 30px;
+    border: 0;
+}
+
+.modal__label > div {
+    width: 100%;
+}
+
+.MuiOutlinedInput-input {
+    height: 0 !important;
+}
+
+.MuiOutlinedInput-inputMultiline {
+    height: 76px !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border: 0 !important;
+}
+
+.modal__footer {
+    display: flex;
+    border-top: 1px solid #d4d4d4;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+.modal__footer > button {
+    display: flex;
+    align-items: center;
+    color: #bebebe;
+    font-size: 1rem;
+    background: white;
+    border-style: none;
+    border-radius: 20px;
+    justify-content: space-between;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    padding: 5px 10px;
+    outline: none;
+}
+
+.modal__footer > button:hover {
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
+}
+
+.modal__footer > div {
+    display: flex;
+}
+
+.modal__footer__button {
+    display: flex;
+    font-size: 1rem;
+    color: white;
+    border-style: none;
+    align-items: center;
+    background: #a8b3f8;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.modal__footer__button > svg {
+    margin-right: 5px;
+}
+
+.modal__footer__button:first-child {
+    background: white;
+    color: black;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.modal__footer__button:first-child > svg {
+    font-weight: bold;
+}
+
+.dx-dropdowneditor-input-wrapper {
+    width: 100%;
+}
+
+.modal__createButton {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #5867dd;
+    border-style: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.modal__createButton:last-child {
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    background: white;
+    color: black;
+}
+
+.modal__subAddElement {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid rgba(221, 221, 221, 0.81);
+    border-radius: 5px;
+    padding: 6px 5px;
+    font-size: 13px;
+}
+
+.modal__subAddElement > label {
+    display: flex;
+    align-items: center;
+}
+
+.modal__subAddElement > span {
+    background: #F9A52D;
+    padding: 2px 10px;
+    border-radius: 5px;
+}

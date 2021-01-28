@@ -1,0 +1,80 @@
+.table__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.table__form > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.table__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.table__header > select {
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.table__filter {
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table__datepicker {
+    padding: 2px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.table__doc {
+    padding: 9px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table__print {
+    padding: 9px;
+}
+
+.table__print:first-child {
+    border-right: 1px solid #d4d4d4;
+}
+
+.table__pages__select {
+    background: #e3e3e3;
+}
+
+.eye__icon {
+    margin-left: 20px;
+    padding: 12px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.MuiDataGrid-colCellSortable {
+    border: 0.1rem solid rgba(229, 229, 229, 0.42);
+}
+
+
+.MuiDataGrid-cellLeft {
+    border: 0.1rem solid rgba(229, 229, 229, 0.42);
+}
+
+
+.MuiDataGrid-columnSeparator {
+    opacity: 0 !important;
+}

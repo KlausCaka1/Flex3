@@ -1,0 +1,80 @@
+.kanban__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.kanban__form > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.kanban__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.kanban__header > select {
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.kanban__filter {
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.kanban__datepicker {
+    padding: 2px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.kanban__pages__select {
+    background: #e3e3e3;
+}
+
+.eye__icon {
+    margin-left: 20px;
+    padding: 12px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+
+.kanban__body {
+    height: 100%;
+    background: #dddddd;
+}
+
+.kanban__col__header {
+    padding: 10px 15px;
+    margin-bottom: 26px;
+    min-width: 280px;
+    border-radius: 5px;
+}
+
+.kanban__card {
+    background: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    min-width: 280px;
+}
+.kanban__card > div {
+    display: flex;
+    align-items: center;
+}
+
+.kanban__card > div > svg {
+    font-size: 1.7rem;
+    margin-right: 10px;
+}
+.react-kanban-column {
+    background: #dddddd !important;
+}
